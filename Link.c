@@ -16,6 +16,7 @@ node * getNewNode(int data)
         newNode->data = data;
         newNode->next = NULL;
      }
+     printf("Sathish");
      return newNode;
 }
 int insert(node *root, int data)
